@@ -19,9 +19,10 @@ def requirements() -> List[str]:
         return r.split()
     return []
 
-setup(name='',
+
+setup(name='colorlogging',
       version='0.0.1',
-      description='',
+      description='Logging formatter ',
       long_description=readme(),
       classifiers=[
           'Programming Language :: Python :: 3',
