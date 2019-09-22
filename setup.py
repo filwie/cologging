@@ -12,7 +12,7 @@ def readme():
     return ''
 
 setup(name='colorlogging',
-      version='0.0.1',
+      version='0.1',
       description='ColorFormatter class for logging module.',
       long_description=readme(),
       classifiers=[
