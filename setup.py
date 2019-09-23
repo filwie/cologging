@@ -15,6 +15,7 @@ setup(name='cologging',
       version='0.1',
       description='ColorFormatter class for logging module.',
       long_description=readme(),
+      long_description_content_type='text/markdown',
       classifiers=[
           'Programming Language :: Python :: 3',
           'License :: OSI Approved :: MIT License',
