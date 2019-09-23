@@ -11,7 +11,7 @@ def readme():
         return readme.read_text()
     return ''
 
-setup(name='colorlogging',
+setup(name='cologging',
       version='0.1',
       description='ColorFormatter class for logging module.',
       long_description=readme(),
