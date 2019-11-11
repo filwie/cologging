@@ -13,4 +13,4 @@ class ColorFormatter(Formatter):
     def format(self, record):
         s = super().format(record)
         color = ColorFormatter.level_colors.get(record.levelno, Color.white)
-        return incolor(color, s)
+        return incolor(s, fg=color)
